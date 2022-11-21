@@ -1,0 +1,364 @@
+﻿<div class="content-wrapper">
+	<div class="container-full">
+		<!-- Content Header (Page header) -->
+		<div class="content-header">
+			<div class="d-flex align-items-center">
+				<div class="me-auto">
+					<h4 class="page-title">Orders</h4>
+					<div class="d-inline-block align-items-center">
+						<nav>
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="index.html"><i
+											class="mdi mdi-home-outline"></i></a></li>
+								<li class="breadcrumb-item active" aria-current="page">Start Picking</li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Main content -->
+		<section class="content">
+			<div class="col-xl-12 col-12">
+				<div class="box box-bordered border-primary">
+					<div class="box-header with-border">
+						<h4 class="box-title">Get Order Information</h4>
+					</div>
+					<div class="row pt-35 box-body">
+						<a href="#" class="col-md-2 picktolight">
+							<div class="media bg-primary mb-20">
+								<div class="media-body">
+									<h4 class="mb-20 mt-10" style="color: white;">Pick to Light</H4>
+									<img class="mb-10" src="../images/custom-icons/picktolight.png" alt="">
+								</div>
+							</div>
+						</a>
+						<a class="col-md-2" href="#">
+							<div class="media bg-primary mb-20">
+								<div class="media-body">
+									<h4 class="mb-20 mt-10" style="color: white;">Put to Light</H4>
+									<img class="mb-10" src="../images/custom-icons/puttolight.png" alt="">
+								</div>
+							</div>
+						</a>
+						<a class="col-md-2" href="#">
+							<div class="media bg-primary mb-20">
+								<div class="media-body">
+									<h4 class="mb-20 mt-10" style="color: white;">Order to Print</H4>
+									<img class="mb-10" src="../images/custom-icons/ordertoprint.png" alt="">
+								</div>
+							</div>
+						</a>
+						<a class="col-md-2" href="#">
+							<div class="media bg-primary mb-20">
+								<div class="media-body">
+									<h4 class="mb-20 mt-10" style="color: white;">Order to Print</H4>
+									<img class="mb-10" src="../images/custom-icons/searchitembylocation.png" alt="">
+								</div>
+							</div>
+						</a>
+						<div class="d-flex col-md-4 align-items-center justify-content-center">
+							<div class="d-flex flex-row bd-highlight ">
+								<div class="input-group search-field mb-3 h-60 w-300">
+
+								</div>
+							</div>
+							<!-- <div class="col-md-3">
+							<div class="box bt-5 border-info">
+								<div class="box-header">
+									<h4 class="box-title">PICK TO LIGHT</h4>
+									<br>
+									<input type="text" class="form-control" id="firstName5">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="box bt-5 border-success">
+								<div class="box-header">
+									<h4 class="box-title">PULL TO LIGHT</h4>
+									<br>
+									<input type="text" class="form-control" id="firstName5">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="box bt-5 border-danger">
+								<div class="box-header">
+									<h4 class="box-title">SEARCH ITEM BY LOCATION</h4>
+									<br>
+									<input type="text" class="form-control" id="firstName5">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="box bt-5 border-warning text-center mx-auto">
+								<div class="box-header">
+									<h4 class="box-title">ORDER TO PRINT</h4>
+									<br>
+									<button type="button" class="waves-effect waves-light btn btn-info "><i
+											class="fa fa-print"></i></button>
+								</div>
+							</div>
+						</div> -->
+
+
+						</div>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="d-flex flex-row-reverse bd-highlight">
+					</div>
+					<div class="col-12">
+						<div class="box">
+							<div class="box-body">
+								<div class="table-responsive rounded card-table">
+									<table class="table border-no" id="example1">
+										<div class="d-flex flex-row-reverse bd-highlight  ">
+											<button type="button" class="waves-effect waves-light btn btn-info mb-5"><i
+													class="fa fa-refresh"></i></button>
+											<div class="dropdown px-4">
+												<button class="btn  btn-outline btn-primary-light dropdown-toggle"
+													type="button" data-bs-toggle="dropdown">==pending==</button>
+												<div class="dropdown-menu">
+													<a class="dropdown-item" href="#">Action</a>
+													<a class="dropdown-item" href="#">Another action</a>
+													<a class="dropdown-item" href="#">Something else here</a>
+													<div class="dropdown-divider"></div>
+													<a class="dropdown-item" href="#">Separated link</a>
+												</div>
+											</div>
+										</div>
+
+
+										<thead>
+											<tr>
+												<th>OrderCode</th>
+												<th>ItemCode</th>
+												<th>Description</th>
+												<th>Location</th>
+												<th>Qty</th>
+												<th>Picked</th>
+												<th>Unit</th>
+												<th>Status</th>
+												<th>Type</th>
+												<th>CreatorTime</th>
+												<th>Action</th>
+												<th></th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr class="hover-primary">
+												<td>#p245879</td>
+												<td>245</td>
+												<td>Lorem ipsum, in graphical and textual context</td>
+												<td>J9-A-11</td>
+												<td>10</td>
+												<td><span class="badge badge-success">1</span></td>
+												<td>PC</td>
+												<td><span class="badge badge-success">Active</span></td>d>
+												<td><span class="badge badge-primary">Pick to light</span></td>
+												<td>2022-10-24 10:12:00</td>
+												<td>
+													<div class="btn-group">
+														<a class="hover-primary dropdown-toggle no-caret"
+															data-bs-toggle="dropdown"><i
+																class="fa fa-ellipsis-h"></i></a>
+														<div class="dropdown-menu">
+															<a class="dropdown-item" href="#">View Details</a>
+															<a class="dropdown-item" href="#">Edit</a>
+															<a class="dropdown-item" href="#">Delete</a>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr class="hover-primary">
+												<td>#p245879</td>
+												<td>245</td>
+												<td>Lorem ipsum, in graphical and textual context</td>
+												<td>J9-A-11</td>
+												<td>10</td>
+												<td><span class="badge badge-success">1</span></td>
+												<td>PC</td>
+												<td><span class="badge badge-success">Active</span></td>d>
+												<td><span class="badge badge-primary">Pick to light</span></td>
+												<td>2022-10-24 10:12:00</td>
+												<td>
+													<div class="btn-group">
+														<a class="hover-primary dropdown-toggle no-caret"
+															data-bs-toggle="dropdown"><i
+																class="fa fa-ellipsis-h"></i></a>
+														<div class="dropdown-menu">
+															<a class="dropdown-item" href="#">View Details</a>
+															<a class="dropdown-item" href="#">Edit</a>
+															<a class="dropdown-item" href="#">Delete</a>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr class="hover-primary">
+												<td>#p245879</td>
+												<td>245</td>
+												<td>Lorem ipsum, in graphical and textual context</td>
+												<td>J9-A-11</td>
+												<td>10</td>
+												<td><span class="badge badge-success">1</span></td>
+												<td>PC</td>
+												<td><span class="badge badge-success">Active</span></td>d>
+												<td><span class="badge badge-primary">Pick to light</span></td>
+												<td>2022-10-24 10:12:00</td>
+												<td>
+													<div class="btn-group">
+														<a class="hover-primary dropdown-toggle no-caret"
+															data-bs-toggle="dropdown"><i
+																class="fa fa-ellipsis-h"></i></a>
+														<div class="dropdown-menu">
+															<a class="dropdown-item" href="#">View Details</a>
+															<a class="dropdown-item" href="#">Edit</a>
+															<a class="dropdown-item" href="#">Delete</a>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr class="hover-primary">
+												<td>#p245879</td>
+												<td>245</td>
+												<td>Lorem ipsum, in graphical and textual context</td>
+												<td>J9-A-11</td>
+												<td>10</td>
+												<td><span class="badge badge-success">1</span></td>
+												<td>PC</td>
+												<td><span class="badge badge-success">Active</span></td>d>
+												<td><span class="badge badge-primary">Pick to light</span></td>
+												<td>2022-10-24 10:12:00</td>
+												<td>
+													<div class="btn-group">
+														<a class="hover-primary dropdown-toggle no-caret"
+															data-bs-toggle="dropdown"><i
+																class="fa fa-ellipsis-h"></i></a>
+														<div class="dropdown-menu">
+															<a class="dropdown-item" href="#">View Details</a>
+															<a class="dropdown-item" href="#">Edit</a>
+															<a class="dropdown-item" href="#">Delete</a>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr class="hover-primary">
+												<td>#p245879</td>
+												<td>245</td>
+												<td>Lorem ipsum, in graphical and textual context</td>
+												<td>J9-A-11</td>
+												<td>10</td>
+												<td><span class="badge badge-success">1</span></td>
+												<td>PC</td>
+												<td><span class="badge badge-success">Active</span></td>d>
+												<td><span class="badge badge-primary">Pick to light</span></td>
+												<td>2022-10-24 10:12:00</td>
+												<td>
+													<div class="btn-group">
+														<a class="hover-primary dropdown-toggle no-caret"
+															data-bs-toggle="dropdown"><i
+																class="fa fa-ellipsis-h"></i></a>
+														<div class="dropdown-menu">
+															<a class="dropdown-item" href="#">View Details</a>
+															<a class="dropdown-item" href="#">Edit</a>
+															<a class="dropdown-item" href="#">Delete</a>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr class="hover-primary">
+												<td>#p245879</td>
+												<td>245</td>
+												<td>Lorem ipsum, in graphical and textual context</td>
+												<td>J9-A-11</td>
+												<td>10</td>
+												<td><span class="badge badge-success">1</span></td>
+												<td>PC</td>
+												<td><span class="badge badge-success">Active</span></td>d>
+												<td><span class="badge badge-primary">Pick to light</span></td>
+												<td>2022-10-24 10:12:00</td>
+												<td>
+													<div class="btn-group">
+														<a class="hover-primary dropdown-toggle no-caret"
+															data-bs-toggle="dropdown"><i
+																class="fa fa-ellipsis-h"></i></a>
+														<div class="dropdown-menu">
+															<a class="dropdown-item" href="#">View Details</a>
+															<a class="dropdown-item" href="#">Edit</a>
+															<a class="dropdown-item" href="#">Delete</a>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr class="hover-primary">
+												<td>#p245879</td>
+												<td>245</td>
+												<td>Lorem ipsum, in graphical and textual context</td>
+												<td>J9-A-11</td>
+												<td>10</td>
+												<td><span class="badge badge-success">1</span></td>
+												<td>PC</td>
+												<td><span class="badge badge-success">Active</span></td>d>
+												<td><span class="badge badge-primary">Pick to light</span></td>
+												<td>2022-10-24 10:12:00</td>
+												<td>
+													<div class="btn-group">
+														<a class="hover-primary dropdown-toggle no-caret"
+															data-bs-toggle="dropdown"><i
+																class="fa fa-ellipsis-h"></i></a>
+														<div class="dropdown-menu">
+															<a class="dropdown-item" href="#">View Details</a>
+															<a class="dropdown-item" href="#">Edit</a>
+															<a class="dropdown-item" href="#">Delete</a>
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr class="hover-primary">
+												<td>#p245879</td>
+												<td>245</td>
+												<td>Lorem ipsum, in graphical and textual context</td>
+												<td>J9-A-11</td>
+												<td>10</td>
+												<td><span class="badge badge-success">1</span></td>
+												<td>PC</td>
+												<td><span class="badge badge-success">Active</span></td>d>
+												<td><span class="badge badge-primary">Pick to light</span></td>
+												<td>2022-10-24 10:12:00</td>
+												<td>
+													<div class="btn-group">
+														<a class="hover-primary dropdown-toggle no-caret"
+															data-bs-toggle="dropdown"><i
+																class="fa fa-ellipsis-h"></i></a>
+														<div class="dropdown-menu">
+															<a class="dropdown-item" href="#">View Details</a>
+															<a class="dropdown-item" href="#">Edit</a>
+															<a class="dropdown-item" href="#">Delete</a>
+														</div>
+													</div>
+												</td>
+											</tr>
+
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+	</div>
+</div>
+
+
+<script>
+	$('.picktolight').click(function() {
+      $('.search-field').find("input[name=picktolight]").remove();
+      $('.search-field').find("input[name=puttolight]").remove();
+      $('.search-field').find("input[name=searchitembylocation]").remove();
+      $('.search-field').append('<input type="text" class="form-control" style="border-radius: 2rem;" placeholder= " Enet your Query in (Pick to Light)" name="picktolight" > ')
+      });
+</script>

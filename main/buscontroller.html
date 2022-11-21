@@ -1,0 +1,193 @@
+﻿
+<div class="content-wrapper">
+	<div class="container-full">
+		<!-- Content Header (Page header) -->
+		  <div class="content-header">
+			  <div class="d-flex align-items-center">
+				  <div class="me-auto">
+					  <h4 class="page-title">Controller</h4>
+					  <div class="d-inline-block align-items-center">
+						  <nav>
+							  <ol class="breadcrumb">
+								  <li class="breadcrumb-item"><a href="home.html" class="pageLink"><i class="mdi mdi-home-outline"></i></a></li>
+								  <li class="breadcrumb-item active" aria-current="page">Bus Controller</li>
+							  </ol>
+						  </nav>
+					  </div>
+				  </div>
+
+			  </div>
+		  </div>	
+	  <!-- Main content -->
+	  <section class="content">
+		<div class="col-xl-12 col-12">
+			<!-- <div class="treeviewcontainer"></div> -->
+		  <!-- Table section -->
+		  <div class="row">
+			<div class="d-flex flex-row-reverse bd-highlight">
+			</div>
+			  <div class="col-12">
+				  <div class="box">
+					  <div class="box-body">
+						  <div class="table-responsive rounded card-table">
+							  <table class="table border-no" id="example1">
+								<div class="d-flex justify-content-between flex-row bd-highlight  ">
+									<div class="d-flex flex-row bd-highlight"><div class="input-group mb-3">
+										<input type="text" class="form-control" placeholder="Please enter keyword to to queried" aria-label="Please enter keyword to to queried" aria-describedby="button-addon2">
+										<button class="btn btn-info" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
+									  </div></div>
+									<div class="d-flex flex-row bd-highlight  ">
+										<button type="button" class="waves-effect waves-light btn btn-info mb-5 mx-4" data-bs-toggle="modal" data-bs-target="#edit-modal-center"><i class="fa fa-plus">  Add Controller</i></button>
+										<button type="button" class="waves-effect waves-light btn btn-info mb-5"><i class="fa fa-refresh"></i></button>
+									</div>
+								</div>
+								  <thead>
+									  <tr>
+										  <th>Ip Address</th>
+										  <th>Port</th>
+										  <th>Binding</th>
+										  <th>CreatorTime</th>
+										  <th class="px-50">Enabled</th>
+										  <th>Description</th>
+										  <th>Action</th>
+										  
+									  </tr>
+								  </thead>
+									<tbody>
+										<tr class="hover-primary">
+										<!-- <tr  class="hover-primary cursor-pointer pageLink" href="home.html"> -->
+												<td>192.168.10.7</td>
+												<td>8080</td>
+												<td>2022-10-24 10:12:00</td>
+												<td><span class="badge badge-primary">Bound</span></td>
+												<td>
+													<div class="col-sm-3 col-12 text-center ">
+														<input type="checkbox" checked data-toggle="toggle" data-size="small"  data-on="Enabled" data-off="Disabled" data-style="ios" data-onstyle="success" >
+													</div>
+												</td>
+												<td>Lorem ipsum, in graphical and textual context</td>
+												<td>												
+													<div class="btn-group">
+														<a class="hover-primary dropdown-toggle no-caret" data-bs-toggle="dropdown"><i class="fa fa-ellipsis-h"></i></a>
+														<div class="dropdown-menu">
+															<a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit-modal-center">Edit</a>
+															<a class="dropdown-item" href="#">Delete</a>
+														</div>
+													</div>
+												</td>
+												
+										</tr>
+										<tr class="hover-primary">
+										<!-- <tr  class="hover-primary cursor-pointer pageLink" href="home.html"> -->
+												<td>192.168.10.7</td>
+												<td>8080</td>
+												<td>2022-10-24 10:12:00</td>
+												<td><span class="badge badge-primary">Bound</span></td>
+												<td>
+													<div class="col-sm-3 col-12 text-center ">
+														<input type="checkbox" checked data-toggle="toggle" data-size="small"  data-on="Enabled" data-off="Disabled" data-style="ios" data-onstyle="success" >
+													</div>
+												</td>
+												<td>Lorem ipsum, in graphical and textual context</td>
+												<td>
+
+													<div class="btn-group">
+														<a class="hover-primary dropdown-toggle no-caret" data-bs-toggle="dropdown"><i class="fa fa-ellipsis-h"></i></a>
+														<div class="dropdown-menu">
+															<a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#edit-modal-center">Edit</a>
+															<a class="dropdown-item" href="#">Delete</a>
+														</div>
+													</div>
+
+												</td>
+												
+										</tr>
+
+										</tbody>
+									</table>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+		<!-- Model Edit Controller -->
+		  <div class="modal center-modal fade" id="edit-modal-center" tabindex="-1">
+			<form validate>
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header bg-primary">
+				  <h5 class="modal-title">Edit Controller</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					
+					
+							
+						
+								<div class="form-group">
+									<h5>Ip Address <span class="text-danger">*</span></h5>
+									<div class="controls">
+										<input type="text" name="maxChar" class="form-control" required data-validation-required-message="This field is required" maxlength="10">
+									</div>
+									<div class="form-control-feedback"><small>Add <code>maxlength='10'</code>  </small></div>
+								</div>
+							
+								<div class="form-group">
+									<h5>Port<span class="text-danger">*</span></h5>
+									<div class="controls">
+										<input type="text" name="maxChar" class="form-control" required data-validation-required-message="This field is required" maxlength="10">
+									</div>
+									<div class="form-control-feedback"><small>Add <code>maxlength='10'</code>  </small></div>
+								</div>
+							
+
+
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="addressline1" class="form-label">options :</label>
+											<div class="pb-5 flex-shrink-0">							
+												<input type="checkbox" id="md_checkbox_1" class="filled-in chk-col-success">
+												<label for="md_checkbox_1" class="h-20 pb-5 mb-0">Enabled</label>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							
+						
+						
+						
+						<div class="form-group">
+							<h5>Description <span class="text-danger">*</span></h5>
+							<div class="controls">
+								<textarea name="textarea" id="textarea" class="form-control" required placeholder="Write More about it"></textarea>
+							</div>
+						</div>
+					
+						
+					</form>  
+
+					
+				</div>
+				<div class=" flex-row-reverse modal-footer modal-footer-uniform ">
+					<button type="submit" class="btn btn-primary float-end ">Confirm</button>
+					<button type="button" class="btn btn-danger float-end" data-bs-dismiss="modal">Close</button>
+				 
+				</div>
+
+			  </div>
+
+			</div>
+		</form>
+		  </div>
+	  </section>
+	</div>
+</div>
+
+
+    <script src="js/pages/validation.js"></script>
+    <script src="js/pages/form-validation.js"></script>
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+	
+	
